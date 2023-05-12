@@ -1,4 +1,5 @@
 <h1 align="center">My Dotfiles 🎉  </h1>
+<h3 align="center">Neovim • NvChad • Tmux</h3>
 
 ![My-dotfiles](./github-images/dotfile.png)
 
