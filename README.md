@@ -128,6 +128,11 @@ git clone https://github.com/NvChad/NvChad ~/.config/nvim --depth 1 && nvim
 
 ### Customize NvChad to work with Javascript, Typescript and different React frameworks
 
-```bash
-curl https://raw.githubusercontent.com/ng-ha/dotfiles/main/.config/nvim/ --output ~/Download/test/
-```
+- Pull this repository
+- Copy folder `dotfiles-main/.config/nvim/lua/custom/` from the repository you've just downloaded and paste to `~/.config/nvim/lua/custom/`
+- Open `nvim` in terminal then run `:NvChadUpdate` to finish!
+
+### References
+
+- [NvChad](https://github.com/NvChad/NvChad)
+- [https://github.com/josean-dev/dev-environment-files](https://github.com/josean-dev/dev-environment-files)
