@@ -101,11 +101,33 @@ Load these new plugins by running:
 source ~/.zshrc
 ```
 
-Install TMUX with Homebrew
+### Install TMUX with Homebrew
+
+```bash
 brew install tmux
-Create ~/.tmux.conf file
-touch ~/.tmux.conf
+```
+
+Get ~/.tmux.conf file
+
+```bash
+curl https://raw.githubusercontent.com/ng-ha/dotfiles/main/.tmux.conf --output ~/.tmux.conf
+```
 
 Install tpm (tmux plugin manager)
 Run the following:
+
+```bash
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+```
+
+### Install NvChad
+
+```bash
+git clone https://github.com/NvChad/NvChad ~/.config/nvim --depth 1 && nvim
+```
+
+### Customize NvChad to work with Javascript, Typescript and different React frameworks
+
+```bash
+curl https://raw.githubusercontent.com/ng-ha/dotfiles/main/.config/nvim/ --output ~/Download/test/
+```
