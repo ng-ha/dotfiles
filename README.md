@@ -24,7 +24,6 @@ Run this to install PowerLevel10K:
 
 ```bash
 git clone https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerlevel10k
-
 ```
 
 Now that it's installed, open the "~/.zshrc" file with your preferred editor and change the value of "ZSH_THEME" as shown below:
@@ -67,27 +66,40 @@ Open iTerm2
 Download color profile by running the following command (will be added to Downloads folder):
 
 ```bash
-curl https://raw.githubusercontent.com/josean-dev/dev-environment-files/main/coolnight.itermcolors --output ~/Downloads/coolnight.itermcolors
-
+curl https://raw.githubusercontent.com/ng-ha/dotfiles/main/coolnight.itermcolors --output ~/Downloads/coolnight.itermcolors
 ```
 
-Open iTerm2 preferences
-Go to Profiles > Colors
-Import the downloaded color profile (coolnight)
-Select the color profile (coolnight)
-You can find other themes here: [Iterm2 Color Schemes](https://iterm2colorschemes.com/)
+- Open iTerm2 preferences
+- Go to Profiles > Colors
+- Import the downloaded color profile (coolnight)
+- Select the color profile (coolnight)
+- You can find other themes here: [Iterm2 Color Schemes](https://iterm2colorschemes.com/)
 
-Install ZSH Plugins
+### Install ZSH Plugins
+
 Install zsh-autosuggestions:
+
+```bash
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+```
+
 Install zsh-syntax-highlighting:
+
+```bash
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+```
+
 Open the "~/.zshrc" file in your desired editor and modify the plugins line to what you see below.
+
+```bash
 plugins=(git zsh-autosuggestions zsh-syntax-highlighting web-search)
+```
+
 Load these new plugins by running:
+
+```bash
 source ~/.zshrc
-You're Done!
-With that, you're finished and should have a much better terminal experience!
+```
 
 Install TMUX with Homebrew
 brew install tmux
