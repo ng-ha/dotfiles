@@ -121,6 +121,11 @@ Run the following:
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 ```
 
+Install plugins
+```bash
+Ctrl + a + I
+```
+
 ### Install NvChad
 
 ```bash
